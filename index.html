@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smooth Scrolling</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h2 id="myheading">Smooth Scrolling Practice</h2>
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div1');">Page 1</a>
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div2');">Page 2</a>
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div3');">Page 3</a> 
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div4');">Page 4</a>
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div5');">Page 5</a>
+<a href="#" onclick="return false;" onmousedown="autoScrollTo('div6');">Page 6</a>
+
+
+<div id="div1" class="contentBox">Div 1</div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">Go to the top</a>
+<div id="div2" class="contentBox" onmousedown="resetScroller('myheading');">Div 2</div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">Go to the top</a>
+<div id="div3" class="contentBox" onmousedown="resetScroller('myheading');">Div 3</div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">Go to the top</a>
+<div id="div4" class="contentBox" onmousedown="resetScroller('myheading');">Div 4</div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">Go to the top</a>
+<div id="div5" class="contentBox" onmousedown="resetScroller('myheading');">Div 5</div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">Go to the top</a>
+<div id="div6" class="contentBox" onmousedown="resetScroller('myheading');">Div 6</div>
+<a href="#" onclick="return false;" onmousedown="resetScroller('myheading');">Go to the top</a>
+
+
+
+
+<script src="./main.js"></script>
+</body>
+</html>
